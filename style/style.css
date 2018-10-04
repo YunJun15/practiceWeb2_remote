@@ -1,7 +1,69 @@
 @charset "UTF-8";
 html, body {
   font-family: GillSans, Calibri, Trebuchet, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", sans-serif;
+  font-size: 16px;
   width: 100%;
   height: 100%;
+}
+
+body {
+  background: url(../src/images/body_background.jpg);
+}
+
+header {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: url(../src/images/header_background.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #F3CDA7;
+  text-align: center;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.slogan-content {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.logo {
+  padding-top: 55px;
+  padding-left: 35%;
+}
+
+img {
+  width: 100px;
+}
+
+.slogan-content {
+  margin-left: 25%;
+  line-height: 25px;
+}
+
+h1 {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  margin-left: 22%;
+}
+
+h3 {
+  margin: 0;
+}
+
+.slogan-second {
+  margin-left: 20%;
+  margin-bottom: 330px;
 }
 /*# sourceMappingURL=style.css.map */

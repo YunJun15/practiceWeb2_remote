@@ -1,2 +1,33 @@
 @import "variables";
 @import "layout";
+@import "type";
+@import "common";
+
+.logo {
+    padding-top: 55px;
+    padding-left: 35%;
+}
+
+img {
+    width: 100px;
+}
+
+.slogan-content {
+    margin-left: 25%;
+    line-height: 25px;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 22%;
+}
+
+h3 {
+    margin: 0;
+}
+.slogan-second{
+    margin-left: 20%;
+    margin-bottom: 330px;
+}

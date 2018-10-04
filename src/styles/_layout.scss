@@ -1,5 +1,17 @@
 html,body{
     font-family: $font-family-st;
+    font-size: 16px;
     width: 100%;
     height: 100%;
+}
+body{
+    background: url(../src/images/body_background.jpg)
+}
+
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: url(../src/images/header_background.jpg)  0 0  no-repeat;
+    background-size: cover;
 }
