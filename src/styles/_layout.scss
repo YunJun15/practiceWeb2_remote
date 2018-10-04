@@ -1,15 +1,68 @@
-html,body{
+html, body {
     font-family: $font-family-st;
     font-size: 16px;
     width: 100%;
     height: 100%;
 }
-body{
-    background: url(../src/images/body_background.jpg)
+
+body {
+    background: url(../src/images/body_background.jpg);
 }
 
-header{
+header {
     position: relative;
-    background: url(../src/images/header_background.jpg)  0 0  no-repeat;
+    background: url(../src/images/header_background.jpg) 0 0 no-repeat;
     background-size: cover;
+}
+
+.client-quota {
+    position: relative;
+    padding: 30px 0;
+    background: url(../src/images/section2_background.jpg) (0 / contain) repeat;
+}
+
+//消除inline-block預設間隔
+.quota-step-block {
+    font-size: 0;
+    margin: 50px 0;
+}
+
+.quota-main-row-1 {
+    height: 300px;
+    background: rgba(133, 133, 133, 0.2);
+}
+
+.quota-main-row-2 {
+    height: 250px;
+    background: rgba(175, 69, 69, 0.2);
+}
+
+.quota-desp-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quota-desp {
+    width: calc(100%/3 - 100px*2);
+    padding: 0 35px 40px;
+    border: 1px solid $common-color;
+}
+
+.quota-step-container {
+    width: 70%;
+    margin: 35px auto;
+}
+
+.quota-step {
+    display: inline-block;
+    width: calc(100%/4 - 70px*3 /4);
+    height: 60px;
+    border: 1px solid $common-color;
+    font-size: 1rem;
+
+    &:not(:first-child) {
+        margin-left: 67px;
+    }
 }
