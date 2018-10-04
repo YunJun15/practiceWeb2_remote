@@ -13,6 +13,7 @@ header {
     position: relative;
     background: url(../src/images/header_background.jpg) 0 0 no-repeat;
     background-size: cover;
+    box-shadow: 0 1px 10px $shadow-color;
 }
 
 .client-quota {
@@ -45,9 +46,15 @@ header {
 }
 
 .quota-desp {
-    width: calc(100%/3 - 100px*2);
-    padding: 0 35px 40px;
-    border: 1px solid $common-color;
+    width: calc(100%/3 - 85px*2);
+    padding: 0 35px 30px;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    border-radius: 20px;
+    background: url(../src/images/section2_background.jpg) (0 (0 / contain)) repeat;
+    box-shadow: -1px -1px 10px $shadow-color;
+
 }
 
 .quota-step-container {

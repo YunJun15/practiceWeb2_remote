@@ -14,6 +14,8 @@ header {
   position: relative;
   background: url(../src/images/header_background.jpg) 0 0 no-repeat;
   background-size: cover;
+  -webkit-box-shadow: 0 1px 10px #000000;
+          box-shadow: 0 1px 10px #000000;
 }
 
 .client-quota {
@@ -49,9 +51,15 @@ header {
 }
 
 .quota-desp {
-  width: calc(100%/3 - 100px*2);
-  padding: 0 35px 40px;
-  border: 1px solid rgba(0, 0, 0, 0.87);
+  width: calc(100%/3 - 85px*2);
+  padding: 0 35px 30px;
+  position: relative;
+  top: -50px;
+  z-index: 1;
+  border-radius: 20px;
+  background: url(../src/images/section2_background.jpg) 0 0/contain repeat;
+  -webkit-box-shadow: -1px -1px 10px #000000;
+          box-shadow: -1px -1px 10px #000000;
 }
 
 .quota-step-container {
@@ -82,12 +90,22 @@ h1 {
   color: #FFFFFF;
 }
 
-h1 {
-  font-weight: 100;
+h1, h4, h6 {
+  font-weight: 400;
 }
 
 h3 {
   font-weight: 500;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 30px;
 }
 
 .logo {
@@ -118,5 +136,17 @@ h3 {
 .slogan-second {
   margin-left: 20%;
   margin-bottom: 330px;
+}
+
+.quota-desp-title {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color: #F3CDA7;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.quota-desp-content {
+  margin-top: 15px;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
