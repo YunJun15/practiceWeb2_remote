@@ -6,8 +6,7 @@
         "../../src/styles/_variables.scss",
         "../../src/styles/_layout.scss",
         "../../src/styles/_type.scss",
-        "../../src/styles/_common.scss",
-        "../../src/styles/_layout-container.scss"
+        "../../src/styles/_common.scss"
     ],
     "names": [],
     "file": "style.min.css"
