@@ -18,10 +18,93 @@ header {
           box-shadow: 0 1px 10px #000000;
 }
 
+header h1 {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
 .client-quota {
   position: relative;
   padding: 30px 0;
   background: url(../src/images/section2_background.jpg) 0/contain repeat;
+}
+
+.quota-issue {
+  position: relative;
+  background: url(../src/images/footer_background.jpg) 0 0/cover no-repeat;
+}
+
+h1 {
+  margin-left: 22%;
+  font-size: 4rem;
+  color: #F3CDA7;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.slogan-content {
+  color: #FFFFFF;
+}
+
+h1, h2, h4, h6 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 35px;
+}
+
+.logo {
+  padding-top: 55px;
+  padding-left: 35%;
+}
+
+img {
+  width: 100px;
+}
+
+.slogan-title {
+  text-align: center;
+}
+
+.slogan-content {
+  margin-left: 25%;
+  line-height: 25px;
+}
+
+h1 {
+  display: inline-block;
+}
+
+h3 {
+  margin: 0;
+}
+
+.slogan-second {
+  margin-left: 20%;
+  margin-bottom: 330px;
+}
+
+.quota-desp-title {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color: #F3CDA7;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.quota-desp-content {
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .quota-step-block {
@@ -126,75 +209,14 @@ span {
   background: url(../src/images/client_step_background.jpg);
 }
 
-h1 {
-  font-size: 4rem;
-  color: #F3CDA7;
-  text-align: center;
-  text-shadow: 1px 1px 5px #000000;
-}
-
-.slogan-content {
-  color: #FFFFFF;
-}
-
-h1, h2, h4, h6 {
-  font-weight: 400;
-}
-
-h3 {
-  font-weight: 500;
-}
-
-h4 {
-  font-size: 1.4rem;
-}
-
-h6 {
-  color: #FFFFFF;
-  font-size: 1rem;
-  line-height: 35px;
-}
-
-.logo {
-  padding-top: 55px;
-  padding-left: 35%;
-}
-
-img {
-  width: 100px;
-}
-
-.slogan-content {
-  margin-left: 25%;
-  line-height: 25px;
-}
-
-h1 {
+.quota-issue-info {
   display: inline-block;
-  margin-top: 25px;
-  margin-bottom: 30px;
-  margin-left: 22%;
+  margin-left: 40px;
 }
 
-h3 {
+.quota-issue-info h6 {
   margin: 0;
-}
-
-.slogan-second {
-  margin-left: 20%;
-  margin-bottom: 330px;
-}
-
-.quota-desp-title {
-  margin-top: 20px;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-  color: #F3CDA7;
-  border-bottom: 1px solid #FFFFFF;
-}
-
-.quota-desp-content {
-  margin-top: 15px;
-  margin-bottom: 20px;
+  line-height: 50px;
+  text-shadow: 1px 1px 2px #000000;
 }
 /*# sourceMappingURL=style.css.map */
