@@ -31,7 +31,7 @@ header h1 {
 
 .quota-issue {
   position: relative;
-  background: url(../src/images/footer_background.jpg) 0 0/cover no-repeat;
+  background: url(../src/images/footer_background.jpg) 0 15%/cover no-repeat;
 }
 
 h1 {
@@ -58,9 +58,13 @@ h4 {
 }
 
 h6 {
-  color: #FFFFFF;
   font-size: 1rem;
-  line-height: 35px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .logo {
@@ -105,6 +109,8 @@ h3 {
 .quota-desp-content {
   margin-top: 15px;
   margin-bottom: 20px;
+  line-height: 35px;
+  color: #FFFFFF;
 }
 
 .quota-step-block {
@@ -179,25 +185,28 @@ span {
   margin-left: 5.5%;
 }
 
-.quota-step > img {
+.quota-step img {
   width: 40px;
   line-height: 75px;
   padding-top: 15px;
 }
 
-.quota-step > span {
+.quota-step span {
   padding: 0 10px;
   vertical-align: top;
   font-size: 1rem;
 }
 
-.quota-step-txt {
-  width: 100%;
+.quota-step i {
+  padding-bottom: 15px;
 }
 
 .material-icons {
-  font-size: 35px;
-  padding-bottom: 15px;
+  font-size: 32px;
+}
+
+.quota-step-txt {
+  width: 100%;
 }
 
 .agent-quota-step {
@@ -211,12 +220,62 @@ span {
 
 .quota-issue-info {
   display: inline-block;
-  margin-left: 40px;
+  margin: 50px 35px;
 }
 
 .quota-issue-info h6 {
   margin: 0;
-  line-height: 50px;
+  line-height: 55px;
+  color: #FFFFFF;
   text-shadow: 1px 1px 2px #000000;
+}
+
+.quota-issue-block {
+  width: 44%;
+  margin: 0 auto;
+}
+
+.quota-issue-block h4 {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #666666;
+}
+
+.collapsible-item-header {
+  height: 80px;
+  line-height: 80px;
+  color: #F3CDA7;
+  border: 1px solid #FFFFFF;
+  background: url(../src/images/section2_background.jpg);
+}
+
+.collapsible-item-header i {
+  padding: 0 20px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.collapsible-item-header h6 {
+  margin: 0;
+  display: inline-block;
+}
+
+.collapsible-item-body {
+  padding: 2.5rem;
+  border: 1px solid #FFFFFF;
+  background: url(../src/images/body_background.jpg);
+  opacity: 0.85;
+}
+
+.collapsible-item-body i {
+  font-size: 24px;
+}
+
+.collapsible-item-body p {
+  margin: 0;
+  line-height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
