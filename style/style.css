@@ -34,6 +34,7 @@ header h1 {
 }
 
 .quota-issue {
+  position: relative;
   width: 100%;
   height: 100%;
   background: url(../src/images/footer_background.jpg) 0 100%/cover no-repeat;
@@ -70,6 +71,50 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+@-webkit-keyframes animationImgA {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+  }
+}
+
+@keyframes animationImgA {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+  }
+}
+
+@-webkit-keyframes animationImgQuestion {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+  }
+}
+
+@keyframes animationImgQuestion {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+  }
 }
 
 .logo {
@@ -298,15 +343,27 @@ span {
 
 .issue-img-a {
   width: 15%;
-  top: 50%;
-  left: 18%;
+  top: 40%;
+  left: 17%;
   z-index: 1;
+  -webkit-animation: animationImgA 2s infinite;
+          animation: animationImgA 2s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 .issue-img-question {
-  width: 10%;
-  top: -40%;
-  right: 25%;
+  width: 10.5%;
+  top: 12%;
+  right: 23%;
   z-index: 3;
+  -webkit-animation: animationImgQuestion 2s infinite;
+          animation: animationImgQuestion 2s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */
