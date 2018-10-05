@@ -196,6 +196,7 @@ span {
 }
 
 .collapsible-item-body {
+    display: none;
     padding: 2.5rem;
     border: 1px solid $info-color;
     background: url(../src/images/body_background.jpg);
@@ -210,3 +211,4 @@ span {
         line-height: 30px;
     }
 }
+
