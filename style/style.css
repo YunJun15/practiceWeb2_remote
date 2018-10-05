@@ -255,6 +255,7 @@ span {
   color: #F3CDA7;
   border: 1px solid #FFFFFF;
   background: url(../src/images/section2_background.jpg);
+  cursor: pointer;
 }
 
 .collapsible-item-header i {
