@@ -118,23 +118,28 @@ span {
 
     img {
         width: 40px;
-        line-height: 75px;
-        padding-top: 15px;
+        display: inline;
+        vertical-align: middle;
+        //line-height: 75px;
+        //padding-top: 18px;
     }
 
     span {
+        display: inline;
+        vertical-align: middle;
         padding: 0 10px;
-        vertical-align: top;
         font-size: 1rem;
     }
 
     i {
-        padding-bottom: 15px;
+        display: inline;
+        vertical-align: middle;
+        //padding-bottom: 18px;
     }
 }
 
 .material-icons {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .quota-step-txt {
