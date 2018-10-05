@@ -1,4 +1,4 @@
-h1, h4 ,h6{
+h1, h2, h4, h6 {
     font-weight: 400;
 }
 
@@ -13,5 +13,6 @@ h4 {
 h6 {
     color: $info-color;
     font-size: 1rem;
-    line-height: 30px;
+    line-height: 35px;
 }
+
