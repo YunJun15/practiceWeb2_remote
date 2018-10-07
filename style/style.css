@@ -190,11 +190,11 @@ h3 {
 
 .quota-step-container {
   margin: 35px auto;
-  margin-bottom: 80px;
+  margin-bottom: 4.5%;
 }
 
 h2 {
-  margin: 0 17%;
+  margin: 0 23%;
   padding: 30px 0;
   line-height: 50px;
 }
@@ -232,7 +232,7 @@ span {
 }
 
 .quota-step:not(:first-child) {
-  margin-left: 70px;
+  margin-left: 6%;
 }
 
 .quota-step img {

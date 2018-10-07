@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,QAAQ,EACvC,AACI,kBADc,CACd,EAAE,AAAC,CAEC,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,MAAM,CACpB",
+    "sources": [
+        "../../src/styles/extra-small-devices.scss"
+    ],
+    "names": [],
+    "file": "extra-small-devices.min.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM,EACrC,AAAA,iBAAiB,AAAC,CACd,KAAK,CAAE,KAAK,CACf,AACD,AACI,WADO,AACN,IAAK,CAAA,YAAY,CAAE,CAChB,WAAW,CAAE,EAAE,CAClB",
+    "sources": [
+        "../../src/styles/devices.scss"
+    ],
+    "names": [],
+    "file": "devices.min.css"
+}

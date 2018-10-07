@@ -1,0 +1,26 @@
+@media only screen and (max-width: 991.98px){
+    .quota-step-block {
+        //width: 95%;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    // .quota-step:not(:first-child) {
+    //     margin-left: 0%;
+    // }
+    .quota-step{
+         margin-bottom: 6%;
+    }
+
+    //     &:nth-child(2n+1){
+    //         margin-left: 14%;
+    //         margin-right: 10%;
+    //     }
+    //     &:nth-child(2n+2){
+    //         margin-left: 10%;
+    //     }
+        
+    // }
+    
+}

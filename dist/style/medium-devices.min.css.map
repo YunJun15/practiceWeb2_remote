@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,QAAQ,EACvC,AAAA,iBAAiB,AAAC,CAEd,KAAK,CAAE,GAAG,CACV,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CACf,eAAe,CAAE,YAAY,CAChC,AAID,AAAA,WAAW,AAAA,CACN,aAAa,CAAE,EAAE,CACrB",
+    "sources": [
+        "../../src/styles/medium-devices.scss"
+    ],
+    "names": [],
+    "file": "medium-devices.min.css"
+}

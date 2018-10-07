@@ -1,0 +1,10 @@
+@media only screen and (max-width:1100px){
+    .quota-step-block {
+        width: 945px;
+    }
+    .quota-step{
+        &:not(:first-child) {
+            margin-left: 1%;
+        }
+    }
+}
