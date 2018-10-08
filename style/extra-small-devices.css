@@ -1,10 +1,22 @@
 @media only screen and (max-width: 575.98px) {
-  h1{
-    font-size: 3rem;
-}
-  .quota-issue-title h1 {
-    margin-left: 8%;
-    
+  .quota-issue-title {
+    display: none;
+  }
+  .quota-issue-block {
+    width: 90%;
+  }
+  .quota-issue-block h4 {
+    padding-top: 20px;
+  }
+  .issue-img-question {
+    width: 25%;
+    top: 4%;
+    right: 2%;
+  }
+  .issue-img-a {
+    width: 40%;
+    top: 33%;
+    left: -17%;
   }
 }
 /*# sourceMappingURL=extra-small-devices.css.map */

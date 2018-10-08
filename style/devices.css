@@ -5,5 +5,8 @@
   .quota-step:not(:first-child) {
     margin-left: 1%;
   }
+  .quota-issue-info {
+    display: none;
+  }
 }
 /*# sourceMappingURL=devices.css.map */

@@ -13,24 +13,21 @@
   .quota-step:not(:first-child) {
     margin-left: 4%;
   }
-  .quota-issue-info {
-    display: none;
-  }
   .quota-issue-title h1 {
-    margin-left: 25%;
+    margin-left: 10%;
   }
   .quota-issue-block {
-    width: 65%;
+    width: 60%;
   }
   .issue-img-a {
-    width: 20%;
-    top: 50%;
+    width: 250px;
+    top: 20%;
     left: 5%;
   }
   .issue-img-question {
-    width: 14%;
-    top: 20%;
-    right: 10%;
+    width: 200px;
+    top: -25%;
+    left: 75%;
   }
 }
 /*# sourceMappingURL=large-devices.css.map */

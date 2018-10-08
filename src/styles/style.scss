@@ -78,6 +78,7 @@ h3 {
 
 h2 {
     margin: 0 23%;
+
     //margin: 0 10%;
     padding: 30px 0;
     line-height: 50px;
@@ -96,13 +97,16 @@ h2 {
 span {
     font-size: 2.5rem;
 }
-.quota-step-block{
+
+.quota-step-block {
     font-size: 0;
     width: 1125px;
     margin: 50px auto;
 }
+
 .quota-step {
     display: inline-block;
+
     //width: calc(100%/4 - 70px*3 /4);
     min-width: 228px;
     height: 75px;
@@ -120,14 +124,17 @@ span {
         width: 40px;
         display: inline;
         vertical-align: middle;
+
         //line-height: 75px;
         //padding-top: 18px;
+   
     }
 
     span {
         display: inline-block;
         width: 110px;
         vertical-align: middle;
+
         //padding: 0 10px;
         font-size: 1rem;
     }
@@ -135,7 +142,9 @@ span {
     i {
         display: inline;
         vertical-align: middle;
+
         //padding-bottom: 18px;
+   
     }
 }
 
@@ -157,6 +166,8 @@ span {
 }
 
 .quota-issue-info {
+    position: relative;
+    z-index: 4;
     display: inline-block;
     margin: 50px 35px;
 
@@ -170,6 +181,8 @@ span {
 
 .quota-issue-container {
     position: relative;
+    height: 85%;
+    
 }
 
 .quota-issue-block {
@@ -230,9 +243,9 @@ span {
 }
 
 .issue-img-a {
-    width: 15%;
-    top: 40%;
-    left: 17%;
+    width: 250px;
+    top: 16%;
+    left: 18%;
     z-index: 1;
     animation: animationImgA 2s infinite;
     animation-direction: alternate;
@@ -240,9 +253,9 @@ span {
 }
 
 .issue-img-question {
-    width: 10.5%;
-    top: 12%;
-    right: 23%;
+    width: 200px;
+    top: -20%;
+    left: 65%;
     z-index: 3;
     animation: animationImgQuestion 2s infinite;
     animation-direction: alternate;
