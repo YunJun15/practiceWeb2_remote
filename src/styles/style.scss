@@ -28,6 +28,7 @@ h1 {
 
 h3 {
     margin: 0;
+    line-height: 35px;
 }
 
 .slogan-second {
@@ -65,7 +66,7 @@ h3 {
     top: -50px;
     z-index: 1;
     border-radius: 20px;
-    background: url(../src/images/section2_background.jpg) (0 (0 / contain)) repeat;
+    background: url(../src/images/section2_background.jpg) 0 (0 / cover) no-repeat;
     box-shadow: -1px -1px 10px $shadow-color;
 }
 
@@ -182,7 +183,6 @@ span {
 .quota-issue-container {
     position: relative;
     height: 85%;
-    
 }
 
 .quota-issue-block {
@@ -255,8 +255,8 @@ span {
 .issue-img-question {
     width: 200px;
     top: -20%;
-    left: 65%;
-    z-index: 3;
+    left: 67%;
+    z-index: 2;
     animation: animationImgQuestion 2s infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
